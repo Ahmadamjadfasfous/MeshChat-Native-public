@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Mesh links -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:pathData="M54,54 L32,36 M54,54 L76,36 M54,54 L32,74 M54,54 L76,74 M32,36 L76,36 M32,74 L76,74" />
+    <!-- Outer nodes -->
+    <path
+        android:fillColor="#00FF66"
+        android:pathData="M32,30a6,6 0,1 0,0.001 0z M76,30a6,6 0,1 0,0.001 0z M32,68a6,6 0,1 0,0.001 0z M76,68a6,6 0,1 0,0.001 0z" />
+    <!-- Center node -->
+    <path
+        android:fillColor="#FF0055"
+        android:pathData="M54,45a9,9 0,1 0,0.001 0z" />
+</vector>

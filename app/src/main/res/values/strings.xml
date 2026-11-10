@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">MeshChat</string>
+    <string name="tagline">Decentralized P2P Mesh Network</string>
+    <string name="service_notification_title">MeshChat Active Mesh Node</string>
+    <string name="service_notification_desc">Maintaining P2P Cluster discovery, low-latency audio stream, and packet routing.</string>
+    
+    <!-- Navigation & Tabs -->
+    <string name="nav_radar">Mesh Radar</string>
+    <string name="nav_peers">Available Network Peers</string>
+    <string name="nav_walkie_talkie">PTT Walkie-Talkie</string>
+    <string name="nav_settings">Security &amp; Protocol</string>
+
+    <!-- Radar / Discovery -->
+    <string name="radar_title">Mesh Node Cluster Radar</string>
+    <string name="radar_scanning">Scanning 2.4/5GHz P2P_CLUSTER &amp; BLE...</string>
+    <string name="radar_connected_nodes">Active Mesh Relays: %1$d</string>
+    <string name="radar_routing_hops">Max Route Depth: %1$d Hops</string>
+    <string name="node_action_connect">Initiate Handshake</string>
+    <string name="node_action_connected">Node Connected</string>
+    <string name="node_action_verify">Verify Peer Identity</string>
+
+    <!-- Verification & Crypto -->
+    <string name="crypto_status_secured">ECDH + AES-GCM Encrypted</string>
+    <string name="crypto_status_unverified">Verification Required (Anti-Replay Active)</string>
+    <string name="crypto_challenge_title">Human Verification Challenge</string>
+    <string name="crypto_challenge_desc">Out-of-band identity question. Answer establishes Keystore trust metadata without storing plaintext answers.</string>
+    <string name="crypto_challenge_prompt">Challenge Question: %1$s</string>
+    <string name="crypto_challenge_submit">Submit Verification Response</string>
+    <string name="crypto_challenge_failed">Challenge Failed or Timed Out (Nonce Expired)</string>
+    <string name="crypto_trust_established">Peer Asymmetric Key Stored in Keystore</string>
+
+    <!-- PTT Walkie-Talkie -->
+    <string name="ptt_title">Tactical Push-To-Talk Stream</string>
+    <string name="ptt_channel_broadcast">All Mesh Nodes (Flood Relay)</string>
+    <string name="ptt_hold_to_talk">HOLD TO TRANSMIT AUDIO</string>
+    <string name="ptt_transmitting">TRANSMITTING REAL-TIME AUDIO...</string>
+    <string name="ptt_receiving">RECEIVING FROM: %1$s</string>
+    <string name="ptt_buffer_latency">Circular Buffer Latency: %1$d ms</string>
+    <string name="ptt_idle">Release to Listen (Half-Duplex Stream Active)</string>
+
+    <!-- Chat & Multi-hop -->
+    <string name="chat_input_placeholder">Type a message...</string>
+    <string name="chat_send">Open chat</string>
+    <string name="chat_multi_hop_routed">Relayed via %1$s (%2$d hops)</string>
+    <string name="chat_direct_link">Direct Link</string>
+    <string name="chat_message_verified">Signature Validated</string>
+
+    <!-- Settings & Language -->
+    <string name="settings_title">System &amp; Mesh Architecture</string>
+    <string name="settings_language">Language / اللغة</string>
+    <string name="settings_lang_en">English (LTR)</string>
+    <string name="settings_lang_ar">العربية (RTL)</string>
+    <string name="settings_purge_trust">Purge Keystore Trust Table</string>
+    <string name="settings_device_id">Local Mesh Node ID: %1$s</string>
+
+    <!-- Unified peer directory -->
+    <string name="peers_search_hint">Search name / model / id  (e.g. Samsung/SM-A546B/1a2b)</string>
+    <string name="peers_search_clear">Clear search</string>
+    <string name="peers_empty">No peers discovered yet. Keep the app open near other MeshChat devices.</string>
+    <string name="peers_no_match">No peer matches \"%1$s\"</string>
+    <string name="peers_direct_remote">%1$d direct · %2$d via multi-hop</string>
+    <string name="peers_direct">DIRECT</string>
+    <string name="peers_hops">%1$d HOPS</string>
+    <string name="peers_offline">OFFLINE</string>
+    <string name="peers_edit_name">Display name</string>
+    <string name="peers_edit_name_desc">First field of your username (name / device model / id). Other nodes see it after the next route announcement.</string>
+    <string name="peers_save">Save</string>
+    <string name="peers_cancel">Cancel</string>
+    <string name="ptt_unicast_transmitting">PRIVATE PTT - TRANSMITTING TO: %1$s</string>
+</resources>

@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">مش تشات</string>
+    <string name="tagline">شبكة الند للند اللاسلكية اللامركزية</string>
+    <string name="service_notification_title">عقدة مش تشات النشطة</string>
+    <string name="service_notification_desc">الحفاظ على اكتشاف العقد، بث الصوت منخفض الاستجابة، وتوجيه الحزم متعددة القفزات.</string>
+    
+    <!-- Navigation & Tabs -->
+    <string name="nav_radar">رادار الشبكة</string>
+    <string name="nav_peers">الأقران المتاحون في الشبكة</string>
+    <string name="nav_walkie_talkie">جهاز الاتصال اللاسلكي (PTT)</string>
+    <string name="nav_settings">الأمان والبروتوكول</string>
+
+    <!-- Radar / Discovery -->
+    <string name="radar_title">رادار عنقود العقد المشبكية</string>
+    <string name="radar_scanning">جاري مسح ترددات 2.4/5GHz والبلوتوث منخفض الطاقة...</string>
+    <string name="radar_connected_nodes">عقد الترحيل النشطة: %1$d</string>
+    <string name="radar_routing_hops">أقصى عمق للمسار: %1$d قفزات</string>
+    <string name="node_action_connect">بدء المصافحة المشفرة</string>
+    <string name="node_action_connected">العقدة متصلة</string>
+    <string name="node_action_verify">التحقق من هوية القرين</string>
+
+    <!-- Verification & Crypto -->
+    <string name="crypto_status_secured">مشفر بواسطة ECDH + AES-GCM</string>
+    <string name="crypto_status_unverified">مطلوب التحقق (نظام منع إعادة الإرسال نشط)</string>
+    <string name="crypto_challenge_title">تحدي التحقق البشري</string>
+    <string name="crypto_challenge_desc">سؤال هوية خارجي. الإجابة تؤسس الثقة دون تخزين الإجابات كنصوص صريحة.</string>
+    <string name="crypto_challenge_prompt">سؤال التحدي: %1$s</string>
+    <string name="crypto_challenge_submit">إرسال استجابة التحقق</string>
+    <string name="crypto_challenge_failed">فشل التحدي أو انتهت صلاحيته (انقضاء الرمز العشوائي Nonce)</string>
+    <string name="crypto_trust_established">تم حفظ المفتاح اللاتناظري للقرين في Keystore</string>
+
+    <!-- PTT Walkie-Talkie -->
+    <string name="ptt_title">بث الصوت التكتيكي المباشر</string>
+    <string name="ptt_channel_broadcast">جميع عقد الشبكة (ترحيل طوفاني)</string>
+    <string name="ptt_hold_to_talk">اضغط واستمر للتحدث</string>
+    <string name="ptt_transmitting">جاري نقل الصوت اللحظي المشفر...</string>
+    <string name="ptt_receiving">جاري الاستقبال من: %1$s</string>
+    <string name="ptt_buffer_latency">استجابة التخزين المؤقت الدائري: %1$d م.ث</string>
+    <string name="ptt_idle">حرر الزر للاستماع (وضع الاستقبال الثنائي نشط)</string>
+
+    <!-- Chat & Multi-hop -->
+    <string name="chat_input_placeholder">اكتب رسالة...</string>
+    <string name="chat_send">فتح المحادثة</string>
+    <string name="chat_multi_hop_routed">تم الترحيل عبر %1$s (%2$d قفزات)</string>
+    <string name="chat_direct_link">اتصال مباشر</string>
+    <string name="chat_message_verified">تم التحقق من التوقيع الرقمي</string>
+
+    <!-- Settings & Language -->
+    <string name="settings_title">النظام وهندسة الشبكة</string>
+    <string name="settings_language">Language / اللغة</string>
+    <string name="settings_lang_en">English (LTR)</string>
+    <string name="settings_lang_ar">العربية (RTL)</string>
+    <string name="settings_purge_trust">مسح جدول الثقة من Keystore</string>
+    <string name="settings_device_id">معرف العقدة المحلي: %1$s</string>
+
+    <!-- Unified peer directory -->
+    <string name="peers_search_hint">ابحث بالاسم / الطراز / المعرّف (مثال: Samsung/SM-A546B/1a2b)</string>
+    <string name="peers_search_clear">مسح البحث</string>
+    <string name="peers_empty">لم يتم اكتشاف أي أقران بعد. أبقِ التطبيق مفتوحاً بالقرب من أجهزة MeshChat الأخرى.</string>
+    <string name="peers_no_match">لا يوجد قرين يطابق \"%1$s\"</string>
+    <string name="peers_direct_remote">%1$d مباشر · %2$d عبر قفزات متعددة</string>
+    <string name="peers_direct">مباشر</string>
+    <string name="peers_hops">%1$d قفزات</string>
+    <string name="peers_offline">غير متصل</string>
+    <string name="peers_edit_name">الاسم المعروض</string>
+    <string name="peers_edit_name_desc">الحقل الأول من اسم المستخدم (الاسم / طراز الجهاز / المعرّف). يراه الآخرون بعد الإعلان التالي عن المسار.</string>
+    <string name="peers_save">حفظ</string>
+    <string name="peers_cancel">إلغاء</string>
+    <string name="ptt_unicast_transmitting">اتصال لاسلكي خاص - جاري الإرسال إلى: %1$s</string>
+</resources>
